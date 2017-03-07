@@ -1,0 +1,19 @@
+/* This file is for your main application css. */
+table {
+  width: 100%;
+}
+
+td {
+  padding:10px;
+  font-size:1.5em;
+}
+
+.table-container {
+  float:left;
+  width: 50%;
+}
+
+#messages {
+  font-size: 1.1em;
+}
+

@@ -1,0 +1,59 @@
+<div class="table-container">
+	<h1>Queues</h1>
+	<table>
+		<tr>
+			<td>Default</td>
+			<td id="default"></td>
+		</tr>
+		<tr>
+			<td>Running</td>
+			<td id="running"></td>
+		</tr>
+		<tr>
+			<td>Retry</td>
+			<td id="retry"></td>
+		</tr>
+		<tr>
+			<td>Succeeded</td>
+			<td id="succeeded"></td>
+		</tr>
+		<tr>
+			<td>Failed</td>
+			<td id="failed"></td>
+		</tr>
+	</table>
+</div>
+
+<div class="table-container">
+	<h1>Metadata</h1>
+	<table>
+		<tr>
+			<td>Producer Pid</td>
+			<td id="producer"></td>
+		</tr>
+		<tr>
+			<td>Consumer Pid</td>
+			<td id="consumer"></td>
+		</tr>
+		<tr>
+			<td>Role</td>
+			<td id="role"></td>
+		</tr>
+		<tr>
+			<td>Node Name</td>
+			<td id="node"></td>
+		</tr>
+	</table>
+</div>
+
+<table>
+	<tr>
+		<td> <button id="queue-button">Queue a function:</button> </td>
+		<td> <input id="queue-message"> </td>
+	</tr>
+</table>
+
+<h1>Messages</h1>
+<button id="clearbutton">clear</button>
+<div id="messages">
+
