@@ -49,11 +49,16 @@
 <table>
 	<tr>
 		<td> <button id="queue-button">Queue a function:</button> </td>
-		<td> <input id="queue-message"> </td>
+		<td> <input id="queue-message" placeholder='fn-> "none" end'> </td>
 	</tr>
 </table>
 
-<h1>Messages</h1>
-<button id="clearbutton">clear</button>
-<div id="messages">
+<div class="table-container">
+	<table>
+		<tr>
+			<td><h1>Messages</h1></td>
+			<td><button id="clearbutton">clear</button></td>
+	</table>
+	<div id="messages">
+</div>
 
